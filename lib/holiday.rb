@@ -23,7 +23,7 @@ end
 
 def all_winter_holiday_supplies(holiday_hash)
  new_array = []
-  holiday_hash[:winter].collect do |supply|
+  holiday_hash[:winter][:supplies].collect do |supply|
    new_array << supply
  end
  new_array
